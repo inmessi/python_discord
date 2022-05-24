@@ -23,7 +23,7 @@ async def on_ready():
     # gives the message on the terminal when the bot is ready to use
     print ('We have logged in as {0.user}'.format(client))
 
-@client.command(aliases = ['encourage'])
+@client.command(aliases = ['encourage','inspiration'])
 async def inspire(mes):
     # we are using asynchronous programming in order to wait for our bot
     # to respond to the message

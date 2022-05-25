@@ -3,7 +3,10 @@
 from discord.ext import commands
 import json
 import requests
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 client = commands.Bot(command_prefix = '$')
 # we have got our client right now
 
@@ -41,5 +44,4 @@ async def clean(cont, amount = 5):
 async def close(cont):
     exit()
 
-client.run('OTcyMDIzMzMyNDIzNzUzNzc4.GqCOoP.jPBEmmrH9vCv3TL3TpCcmApN7qKGA-MZ58UlEc')
-
+client.run(os.getenv('TOKEN'))

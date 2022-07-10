@@ -6,7 +6,7 @@
 $ python3 main.py
 ```
 
-#### Deploying python app to heroku
+#### Deploying python bot to heroku
 Files you must have in order to deploy your python app to heroku:
 - Procfile 
 - main.py

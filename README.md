@@ -10,7 +10,7 @@ $ python3 main.py
 Files you must have in order to deploy your python app to heroku:
 - Procfile 
 - main.py
-- requirements.txt. Type the following in your terminal to create requirements.txt.
+- requirements.txt (Type the following in your terminal to create requirements.txt)
 ```sh
 $ pip freeze > requirements.txt
 ```

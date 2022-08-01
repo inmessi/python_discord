@@ -26,4 +26,5 @@ $ cd inmessi
 $ git add . && git commit -m 'done'
 $ git push heroku master 
 ```
+Or simply connect this repository and you're done.
 

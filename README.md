@@ -1,6 +1,11 @@
 
 ## Discord bot using discord.py module
 
+#### Description
+This discord bot can perform two operations:
+1. Command '$encourage' or '$inspire': The bot will return a random motivational quote.
+2. Command '$clear': This will enable the bot to clear the previous n messages. If the number of messages to be deleted is not given as input then it will clear the previous 5 messages. 
+
 #### Running python app locally
 ```sh
 $ python3 main.py
